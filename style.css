@@ -111,9 +111,16 @@ body {
   cursor: pointer;
   font-weight: 700;
   font-size: 15px;
+  margin-top: 15px;
 }
 
 /* Features section*/
+#feature{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
 #feature .fe-box {
   width: 180px;
