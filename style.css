@@ -39,7 +39,7 @@ body {
 
 /*header start */
 #header {
-  background-color: #E4E7F3;
+  background-color: #e4e7f3;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -95,20 +95,46 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-#hero h4{
-    padding-bottom: 15px;
+#hero h4 {
+  padding-bottom: 15px;
 }
-#hero h1{
-    color: #088178;
+#hero h1 {
+  color: #088178;
 }
-#hero button{
-    background-color: transparent;
-    background-image: url("Images/button.png");
-    color: #088178;
-    border: 0;
-    padding: 14px 80px 14px 65px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 15px;
+#hero button {
+  background-color: transparent;
+  background-image: url("Images/button.png");
+  color: #088178;
+  border: 0;
+  padding: 14px 80px 14px 65px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/* Features section*/
+
+#feature .fe-box {
+  width: 180px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.03);
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+#feature .fe-box:hover {
+  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+#feature .fe-box img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#feature .fe-box h6 {
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  background-color: #fddde4;
+  color: #088178;
 }
